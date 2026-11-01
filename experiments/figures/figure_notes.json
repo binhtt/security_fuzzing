@@ -1,0 +1,19 @@
+{
+  "size_mm": [
+    160,
+    75
+  ],
+  "png_dpi": 600,
+  "pdf_fonttype": 42,
+  "sources": [
+    "Primary results supplied with the manuscript",
+    "Audited SF_expanded_results.tex"
+  ],
+  "interpretation": "Panel a shows detection across case-seed runs; panel b shows role-level violations across workflows. Panels have different denominators. All four selectors share the panel-a curves. No confidence intervals or independent-replication claim.",
+  "strict_denominators": {
+    "Qwen2.5-0.5B": 10,
+    "Qwen2.5-1.5B": 5,
+    "SmolLM2-1.7B": 4
+  },
+  "budget12": "Exploratory 0.5B pilot described in text; it is not a matched 7B budget comparison."
+}

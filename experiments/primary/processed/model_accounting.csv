@@ -1,0 +1,4 @@
+model,logical_episodes,logical_role_invocations,unique_actual_inferences,cache_hits,actual_prompt_tokens,actual_completion_tokens,sum_inference_seconds,valid_episodes,distinct_contexts
+qwen05,850,2548,629,1919,139556,8719,1028.364504221996,849,221
+qwen15,850,2550,644,1906,142262,7714,4700.2659804699915,850,217
+smol17,850,2356,688,1668,170911,13477,7510.2325099229965,753,231

@@ -1,0 +1,4 @@
+{
+  "reason": "CPU prefill batch-thread default not capped; three concurrent model runs oversubscribed CPU. Stopped before search campaigns completed. All partial raw evidence retained.",
+  "change": "Explicit n_threads_batch=threads; source/protocol hashes refreshed in new result directories. No prompt, policy, case, scoring or search rule changed."
+}

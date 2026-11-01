@@ -1,0 +1,125 @@
+[
+  {
+    "model": "qwen05",
+    "n": 4,
+    "correct": 4,
+    "rows": [
+      {
+        "expected": 0,
+        "actual": {
+          "choice": 0
+        },
+        "correct": true,
+        "inference_id": 0
+      },
+      {
+        "expected": 1,
+        "actual": {
+          "choice": 1
+        },
+        "correct": true,
+        "inference_id": 1
+      },
+      {
+        "expected": 2,
+        "actual": {
+          "choice": 2
+        },
+        "correct": true,
+        "inference_id": 2
+      },
+      {
+        "expected": 3,
+        "actual": {
+          "choice": 3
+        },
+        "correct": true,
+        "inference_id": 3
+      }
+    ],
+    "grammar": "choice ::= \"0\" | \"1\" | \"2\" | \"3\"\nchoice-kv ::= \"\\\"choice\\\"\" space \":\" space choice\nroot ::= \"{\" space choice-kv \"}\" space\nspace ::= \" \"?",
+    "note": "Post-hoc simple output compliance; excluded from primary workload and attack-rate estimates. Does not establish causal menu-position bias."
+  },
+  {
+    "model": "qwen15",
+    "n": 4,
+    "correct": 4,
+    "rows": [
+      {
+        "expected": 0,
+        "actual": {
+          "choice": 0
+        },
+        "correct": true,
+        "inference_id": 0
+      },
+      {
+        "expected": 1,
+        "actual": {
+          "choice": 1
+        },
+        "correct": true,
+        "inference_id": 1
+      },
+      {
+        "expected": 2,
+        "actual": {
+          "choice": 2
+        },
+        "correct": true,
+        "inference_id": 2
+      },
+      {
+        "expected": 3,
+        "actual": {
+          "choice": 3
+        },
+        "correct": true,
+        "inference_id": 3
+      }
+    ],
+    "grammar": "choice ::= \"0\" | \"1\" | \"2\" | \"3\"\nchoice-kv ::= \"\\\"choice\\\"\" space \":\" space choice\nroot ::= \"{\" space choice-kv \"}\" space\nspace ::= \" \"?",
+    "note": "Post-hoc simple output compliance; excluded from primary workload and attack-rate estimates. Does not establish causal menu-position bias."
+  },
+  {
+    "model": "smol17",
+    "n": 4,
+    "correct": 4,
+    "rows": [
+      {
+        "expected": 0,
+        "actual": {
+          "choice": 0
+        },
+        "correct": true,
+        "inference_id": 0
+      },
+      {
+        "expected": 1,
+        "actual": {
+          "choice": 1
+        },
+        "correct": true,
+        "inference_id": 1
+      },
+      {
+        "expected": 2,
+        "actual": {
+          "choice": 2
+        },
+        "correct": true,
+        "inference_id": 2
+      },
+      {
+        "expected": 3,
+        "actual": {
+          "choice": 3
+        },
+        "correct": true,
+        "inference_id": 3
+      }
+    ],
+    "grammar": "choice ::= \"0\" | \"1\" | \"2\" | \"3\"\nchoice-kv ::= \"\\\"choice\\\"\" space \":\" space choice\nroot ::= \"{\" space choice-kv \"}\" space\nspace ::= \" \"?",
+    "note": "Post-hoc simple output compliance; excluded from primary workload and attack-rate estimates. Does not establish causal menu-position bias."
+  }
+]

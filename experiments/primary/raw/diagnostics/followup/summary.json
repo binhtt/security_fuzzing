@@ -1,0 +1,14 @@
+[
+  {
+    "model": "qwen05",
+    "status": "no eligible clean-qualified failure"
+  },
+  {
+    "model": "qwen15",
+    "status": "no eligible clean-qualified failure"
+  },
+  {
+    "model": "smol17",
+    "status": "no eligible clean-qualified failure"
+  }
+]

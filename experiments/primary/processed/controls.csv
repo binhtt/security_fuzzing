@@ -1,0 +1,7 @@
+model,mode,n,valid,useful,violations
+qwen05,clean,25,25,10,5
+qwen05,benign,25,25,10,5
+qwen15,clean,25,25,5,5
+qwen15,benign,25,25,5,5
+smol17,clean,25,24,4,7
+smol17,benign,25,24,4,7

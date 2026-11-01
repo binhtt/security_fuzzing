@@ -1,0 +1,49 @@
+{
+  "primary": {
+    "qwen05": {
+      "logical_workflows": 850,
+      "fresh_inferences": 629,
+      "role_invocations": 2548,
+      "cache_references": 1919,
+      "valid_workflows": 849
+    },
+    "qwen15": {
+      "logical_workflows": 850,
+      "fresh_inferences": 644,
+      "role_invocations": 2550,
+      "cache_references": 1906,
+      "valid_workflows": 850
+    },
+    "smol17": {
+      "logical_workflows": 850,
+      "fresh_inferences": 688,
+      "role_invocations": 2356,
+      "cache_references": 1668,
+      "valid_workflows": 753
+    }
+  },
+  "primary_total_logical_workflows": 2550,
+  "primary_total_fresh_inferences": 1961,
+  "posthoc_diagnostics": {
+    "format_sanity": {
+      "requests": 12,
+      "fresh_inferences": 12
+    },
+    "menu_diagnostic": {
+      "logical_workflows": 12,
+      "fresh_inferences": 27
+    }
+  },
+  "excluded_jsonl_line_counts": {
+    "results/raw/excluded/development_qwen05/inferences.jsonl": 21,
+    "results/raw/excluded/development_qwen05/episodes.jsonl": 8,
+    "results/raw/excluded/debug/inferences.jsonl": 21,
+    "results/raw/excluded/debug/episodes.jsonl": 8,
+    "results/raw/excluded/infrastructure_aborted/qwen05/inferences.jsonl": 2,
+    "results/raw/excluded/infrastructure_aborted/qwen15_interrupted_checkpoint/inferences.jsonl": 8,
+    "results/raw/excluded/infrastructure_aborted/qwen15_interrupted_checkpoint/episodes.jsonl": 3,
+    "results/raw/excluded/infrastructure_aborted/smol17/inferences.jsonl": 1,
+    "results/raw/excluded/infrastructure_aborted/qwen15/inferences.jsonl": 1
+  },
+  "followup": "Strict selection has no eligible case; broader-cohort fresh replay is not completed. No replay success is claimed."
+}

@@ -1,0 +1,3 @@
+{
+  "reason": "Only 3 complete episodes and 8 inference records survived runtime interruption. Retained as infrastructure evidence, excluded from primary. Restart qwen15 from empty cache to avoid mixed/incomplete episode provenance."
+}

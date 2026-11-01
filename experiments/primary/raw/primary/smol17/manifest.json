@@ -1,0 +1,41 @@
+{
+  "model": "smol17",
+  "model_file": "smollm2-1.7b-instruct-q4_k_m.gguf",
+  "model_sha256": "decd2598bc2c8ed08c19adc3c8fdd461ee19ed5708679d1c54ef54a5a30d4f33",
+  "llama_cpp_python": "0.3.16",
+  "python": "3.12.14",
+  "split": "evaluation",
+  "logical_episodes": 850,
+  "actual_inference_records": 688,
+  "logical_role_invocations": 2356,
+  "actual_fresh_calls_this_invocation": 520,
+  "cache_hits_this_invocation": 1263,
+  "elapsed_this_invocation": 5809.507832154999,
+  "context": 2048,
+  "threads": 4,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "reader_max_tokens": 56,
+  "decision_max_tokens": 16,
+  "seeds": [
+    101,
+    211,
+    307,
+    419,
+    523
+  ],
+  "budget": 8,
+  "methods": [
+    "random",
+    "coverage",
+    "tool_name",
+    "policy"
+  ],
+  "source_hashes": {
+    "study.py": "95994b4cd12cf65b7bf6914d65701c6d35070a16fae3292d9c60e4415657830c",
+    "cases.py": "cf3a389eb20f4c163884be7572aa272f7dfe74347053121e7c1e1cf93d21ebbc",
+    "PROTOCOL.json": "e5745158f872e9820d3080e49d453e437be1f412db6c7e01c9cde50bf1039f0a"
+  },
+  "chat_template": "{% for message in messages %}{% if loop.first and messages[0]['role'] != 'system' %}{{ '<|im_start|>system\nYou are a helpful AI assistant named SmolLM, trained by Hugging Face<|im_end|>\n' }}{% endif %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+  "smoke": false
+}

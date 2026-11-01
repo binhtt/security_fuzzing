@@ -1,0 +1,13 @@
+model,method,campaigns,raw_detected,qualified_campaigns,qualified_detected,raw_detection_rate,qualified_detection_rate,mean_capped_first,qualified_mean_capped_first,auc,valid_episodes,logical_episodes
+qwen05,random,25,5,10,0,0.2,0,7.4,9,0.2,199,200
+qwen05,coverage,25,5,10,0,0.2,0,7.4,9,0.2,200,200
+qwen05,tool_name,25,5,10,0,0.2,0,7.4,9,0.2,200,200
+qwen05,policy,25,5,10,0,0.2,0,7.4,9,0.2,200,200
+qwen15,random,25,5,5,0,0.2,0,7.4,9,0.2,200,200
+qwen15,coverage,25,5,5,0,0.2,0,7.4,9,0.2,200,200
+qwen15,tool_name,25,5,5,0,0.2,0,7.4,9,0.2,200,200
+qwen15,policy,25,5,5,0,0.2,0,7.4,9,0.2,200,200
+smol17,random,25,7,4,0,0.28,0,6.8,9,0.27,177,200
+smol17,coverage,25,7,4,0,0.28,0,6.8,9,0.27,176,200
+smol17,tool_name,25,7,4,0,0.28,0,6.8,9,0.27,174,200
+smol17,policy,25,7,4,0,0.28,0,6.8,9,0.27,178,200
