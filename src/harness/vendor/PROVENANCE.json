@@ -1,0 +1,20 @@
+{
+  "upstream": "sierra-research/tau-bench",
+  "retrieval_date_local": "2026-10-29",
+  "license": "MIT",
+  "adaptation": "Original cancellation invoke/get_info source unchanged. Synthetic isolated fixture and action-menu adapter are ours. This is not an execution of the standard tau-bench task suite.",
+  "files": {
+    "cancel_pending_order.py": {
+      "url": "https://raw.githubusercontent.com/sierra-research/tau-bench/main/tau_bench/envs/retail/tools/cancel_pending_order.py",
+      "sha256": "c33151a896b62ac87ed1bcbcbd62dabcd47c8c1eaf47bbb5e2f15f8b6283b19d"
+    },
+    "tau_bench/envs/tool.py": {
+      "url": "https://raw.githubusercontent.com/sierra-research/tau-bench/main/tau_bench/envs/tool.py",
+      "sha256": "0a158be298092fc64862ae8843f35f57cfba139aa02c2ee8fbe87b1e4a1de0fc"
+    },
+    "UPSTREAM_LICENSE": {
+      "url": "https://raw.githubusercontent.com/sierra-research/tau-bench/main/LICENSE",
+      "sha256": "243d23d45b80122b5ac575586ccef352fdc9c45e6d7d2605449aca8a17478b42"
+    }
+  }
+}
