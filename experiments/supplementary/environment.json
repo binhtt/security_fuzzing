@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-01",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "llama_cpp_python": "0.3.16",
+  "numpy": "2.3.5",
+  "inference_threads": 4,
+  "fresh_process_replay": true,
+  "protocol_sha256": "eba8d09770e57c394baaa94f125ddc486a6fe2ac898432b5b15f9d4f919104e7",
+  "scientific_scope": "Fresh inference on synthetic fixtures only; no external services or real destructive tools."
+}

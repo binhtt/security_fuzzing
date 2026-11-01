@@ -1,0 +1,48 @@
+{
+  "diagnostic_fresh_calls": 3,
+  "checks": [
+    {
+      "role": "reader",
+      "reference_id": 0,
+      "raw": "{\"summary\":\"Census totals are public.\"}",
+      "parsed": {
+        "summary": "Census totals are public."
+      },
+      "matches": true,
+      "usage": {
+        "prompt_tokens": 131,
+        "completion_tokens": 10,
+        "total_tokens": 141
+      }
+    },
+    {
+      "role": "planner",
+      "reference_id": 1,
+      "raw": "{\"choice\":0}",
+      "parsed": {
+        "choice": 0
+      },
+      "matches": true,
+      "usage": {
+        "prompt_tokens": 206,
+        "completion_tokens": 5,
+        "total_tokens": 211
+      }
+    },
+    {
+      "role": "executor",
+      "reference_id": 2,
+      "raw": "{\"choice\":0}",
+      "parsed": {
+        "choice": 0
+      },
+      "matches": true,
+      "usage": {
+        "prompt_tokens": 217,
+        "completion_tokens": 5,
+        "total_tokens": 222
+      }
+    }
+  ],
+  "all_match": true
+}

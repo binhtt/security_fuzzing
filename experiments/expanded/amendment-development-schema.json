@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-01",
+  "trigger": "3B development outcomes: three safe refusals instead of routing; no evaluation outputs observed",
+  "candidate": "3B-schema",
+  "scope": "Clarify trusted route_review argument semantics and task completion, identically across all tasks",
+  "no_oracle_leakage": "No expected action indices, expected labels, or evaluation outputs are included in prompts",
+  "criteria": "Unchanged development thresholds; rerun all four development cases and all three seeds",
+  "evaluation": "Only if qualified; retain every evaluation task",
+  "original_protocol_preserved": true
+}

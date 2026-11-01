@@ -1,0 +1,9 @@
+{
+  "status": "interrupted for resource/prefix-state-cache configuration; retained as excluded infrastructure attempt",
+  "completed_workflows": 1,
+  "modes": [
+    "clean"
+  ],
+  "not_pooled_with_final_evaluation": true,
+  "restart": "new isolated directory; all fifteen tasks retained"
+}

@@ -1,0 +1,12 @@
+{
+  "model": "qwen05",
+  "model_sha256": "74a4da8c9fdbcd15bd1f6d01d621410d31c6fc00986f5eb687824e7b93d7a9db",
+  "logical_episodes": 250,
+  "fresh_inferences": 155,
+  "cache_hits": 595,
+  "budget": 12,
+  "initialization_queries": 3,
+  "seed": 631,
+  "protocol_sha256": "eba8d09770e57c394baaa94f125ddc486a6fe2ac898432b5b15f9d4f919104e7",
+  "source_sha256": "1c02662fd8b9f373e6472228a7a44a2ba865439e4690510d0a1b648baf7f94c1"
+}

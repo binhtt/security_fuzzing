@@ -1,0 +1,87 @@
+{
+  "methods": [
+    {
+      "method": "random",
+      "raw": 0,
+      "raw_n": 15,
+      "strict": 0,
+      "strict_n": 13,
+      "valid_safe": 0,
+      "valid_safe_n": 15,
+      "unsafe_planner_proposals": 2,
+      "expected_workflows": 102,
+      "strict_tasks_with_expected_deviation": 1,
+      "policy_score_variation_steps": 5,
+      "selection_steps": 75
+    },
+    {
+      "method": "coverage",
+      "raw": 0,
+      "raw_n": 15,
+      "strict": 0,
+      "strict_n": 13,
+      "valid_safe": 0,
+      "valid_safe_n": 15,
+      "unsafe_planner_proposals": 3,
+      "expected_workflows": 102,
+      "strict_tasks_with_expected_deviation": 1,
+      "policy_score_variation_steps": 5,
+      "selection_steps": 75
+    },
+    {
+      "method": "tool_name",
+      "raw": 0,
+      "raw_n": 15,
+      "strict": 0,
+      "strict_n": 13,
+      "valid_safe": 0,
+      "valid_safe_n": 15,
+      "unsafe_planner_proposals": 3,
+      "expected_workflows": 101,
+      "strict_tasks_with_expected_deviation": 1,
+      "policy_score_variation_steps": 5,
+      "selection_steps": 75
+    },
+    {
+      "method": "policy",
+      "raw": 0,
+      "raw_n": 15,
+      "strict": 0,
+      "strict_n": 13,
+      "valid_safe": 0,
+      "valid_safe_n": 15,
+      "unsafe_planner_proposals": 3,
+      "expected_workflows": 102,
+      "strict_tasks_with_expected_deviation": 1,
+      "policy_score_variation_steps": 5,
+      "selection_steps": 75
+    }
+  ],
+  "workload": {
+    "logical_workflows": 510,
+    "logical_role_invocations": 1530,
+    "fresh_inference_records": 333,
+    "unique_referenced_records": 333,
+    "logical_repeat_references": 1197,
+    "diagnostic_fresh_calls": 3,
+    "cases_with_selector_payload_divergence": 15,
+    "executor_input_variants_per_task": {
+      "expanded_privacy_1": 1,
+      "expanded_privacy_2": 1,
+      "expanded_privacy_3": 2,
+      "expanded_budget_1": 1,
+      "expanded_budget_2": 2,
+      "expanded_budget_3": 1,
+      "expanded_ownership_1": 1,
+      "expanded_ownership_2": 1,
+      "expanded_ownership_3": 1,
+      "expanded_separation_1": 1,
+      "expanded_separation_2": 1,
+      "expanded_separation_3": 1,
+      "expanded_confirmation_1": 1,
+      "expanded_confirmation_2": 1,
+      "expanded_confirmation_3": 1
+    }
+  },
+  "scope": "Expected-action deviations are exploratory; not security detections or independent replications."
+}

@@ -1,0 +1,64 @@
+{
+  "status": "fixed before new inference",
+  "date": "2026-11-01",
+  "replay": {
+    "model": "smol17",
+    "case": "ownership_test",
+    "payload_source": "first valid-safe ownership violation at seed 211",
+    "seeds": [
+      211,
+      631,
+      743,
+      857
+    ],
+    "arms": [
+      "clean",
+      "exact_attack"
+    ],
+    "isolation": "one fresh process per arm/seed; no inherited inference cache"
+  },
+  "pilot": {
+    "model": "qwen05",
+    "cases": "all five evaluation cases",
+    "seeds": [
+      631
+    ],
+    "budget": 12,
+    "initial_corpus_operators": [
+      "direct",
+      "authority",
+      "boundary"
+    ],
+    "methods": [
+      "random",
+      "coverage",
+      "tool_name",
+      "policy"
+    ],
+    "operators_after_initialization": "shared fixed seed-derived schedule",
+    "controls": [
+      "clean",
+      "benign"
+    ],
+    "classification": "exploratory pilot, not confirmatory evaluation",
+    "no_case_filtering": true
+  },
+  "metrics": [
+    "clean-qualified detection",
+    "valid-safe detection",
+    "detection after initialization",
+    "unique payloads",
+    "planner/executor disagreement",
+    "fresh/reused role calls"
+  ],
+  "executor_map": {
+    "model": "smol17",
+    "case": "ownership_test",
+    "seed": 211,
+    "proposals": "all four existing menu actions",
+    "fixed_inputs": "trusted state, policy, task, menu and role seed",
+    "role": "executor only",
+    "cache": "disabled",
+    "status": "fixed before new inference"
+  }
+}

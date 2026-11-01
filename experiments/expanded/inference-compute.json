@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "stage": "before evaluation inference",
+  "change": "Enable standard llama_cpp LlamaRAMCache token-prefix state cache at 512 MiB for evaluation only",
+  "reason": "Reduce repeated prompt evaluation on CPU without changing roles, prompts, model, action menus or sampling settings",
+  "accounting": "This is internal KV/prefix evaluation reuse. Fresh generated outputs and exact-output memoization retain separate accounting. No strategy timing advantage is claimed.",
+  "memory_limit_bytes": 8589934592,
+  "baseline_settings_preserved": true,
+  "runtime_amendment": {
+    "event": "cgroup OOM kill (exit137), memory.events oom_kill=1",
+    "completed_workflows_preserved": 39,
+    "completed_fresh_inferences": 33,
+    "resume": "Replay recorded episodes verbatim, rebuild each search corpus, reuse exact inference outputs, then continue uncompleted queries. Disable multi-state RAM cache. No prompts/seeds/models/budgets/cases changed.",
+    "timing": "Do not use resumed wall time for selector comparisons; logs retain segment elapsed times."
+  },
+  "control_first_amendment": {
+    "completed_workflows_preserved": 75,
+    "change": "Evaluate all remaining clean/benign controls before pending attack queries. Preserve recorded outputs verbatim and rebuild selector corpora from existing rows. No cases dropped; final target remains510.",
+    "reason": "Prioritize complete clean-baseline assessment before long CPU search."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "clean": {
+    "source_id": "ownership_test/211/clean",
+    "role_parsed_outputs_match": [
+      true,
+      true,
+      true
+    ],
+    "final_action_matches": true,
+    "fresh": true
+  },
+  "attack": {
+    "source_id": "ownership_test/211/random/1",
+    "role_parsed_outputs_match": [
+      true,
+      true,
+      true
+    ],
+    "final_action_matches": true,
+    "fresh": true
+  }
+}

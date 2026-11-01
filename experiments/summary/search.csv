@@ -1,0 +1,5 @@
+method,raw,raw_n,strict,strict_n,valid_safe,valid_safe_n,unsafe_planner_proposals,expected_workflows,strict_tasks_with_expected_deviation,policy_score_variation_steps,selection_steps
+random,0,15,0,13,0,15,2,102,1,5,75
+coverage,0,15,0,13,0,15,3,102,1,5,75
+tool_name,0,15,0,13,0,15,3,101,1,5,75
+policy,0,15,0,13,0,15,3,102,1,5,75

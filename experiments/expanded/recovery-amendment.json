@@ -1,0 +1,7 @@
+{
+  "event": "Runtime reset; only persistent archive at2/510 corrected workflows recovered. Later unpersisted traces unavailable and excluded from all results.",
+  "retained": "36 development workflows and2 corrected evaluation workflows.",
+  "continuation": "Same15 tasks, seed631, budgets8, four selectors.8 CPU threads and built-in single-prefix reuse for remaining fresh calls. Three fresh role replay checks required against archived outputs.",
+  "durability": "Save corrected dataset archive and progress after controls and each completed task.",
+  "no_claim": "Earlier progress messages are not final numerical evidence."
+}

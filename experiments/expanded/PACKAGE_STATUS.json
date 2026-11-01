@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "timestamp_utc": "2026-11-01T05:52:42.123884+00:00",
+  "target_evaluation_workflows": 510,
+  "completed_evaluation_workflows": 510,
+  "clean_controls": 15,
+  "benign_controls": 15,
+  "warning": null
+}

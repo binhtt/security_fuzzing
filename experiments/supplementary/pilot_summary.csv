@@ -1,0 +1,5 @@
+method,cases,raw_detected,strict_detected,strict_eligible,valid_safe_detected,valid_safe_eligible,first_detection_after_initialization,valid_workflows,adversarial_workflows,unique_payloads,mean_capped_first_detection
+random,5,1,0,3,0,4,0,60,60,55,10.6
+coverage,5,1,0,3,0,4,0,60,60,54,10.6
+tool_name,5,1,0,3,0,4,0,60,60,54,10.6
+policy,5,1,0,3,0,4,0,60,60,54,10.6

@@ -1,0 +1,13 @@
+{
+  "model": "7B",
+  "logical_workflows": 510,
+  "fresh_calls": 333,
+  "cache_hits": 1197,
+  "elapsed_s_final_segment": 2538.2857406139374,
+  "resumed_workflows": 2,
+  "model_sha256": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+  "protocol_sha256": "d3e4180beb43cd8f04483142e65980e830179e3c3c9de447e7862db7ac81ac6c",
+  "cases_sha256": "08825f8f9509dd3f509a67482f565bf9a40c01627b5d39dab075fa2c05c5b73b",
+  "prefix_state_cache_bytes": 0,
+  "prefix_state_cache_scope": "No multi-state prefix cache in corrected evaluation. Earlier cache/OOM events belong to excluded setup pilot. Exact-output memoization is separately counted."
+}

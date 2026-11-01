@@ -1,0 +1,16 @@
+{
+  "baseline_workflows_checked": 36,
+  "passed": true,
+  "logical_workflows": 510,
+  "logical_role_invocations": 1530,
+  "fresh_inference_records": 333,
+  "checks": [
+    "inference-key hashes",
+    "role prompts and seeds",
+    "trace references",
+    "receipt oracle agreement",
+    "selector and mutation replay",
+    "case counts and case-file hash"
+  ],
+  "scope": "Artifact integrity only; not proof of model safety or oracle correctness."
+}

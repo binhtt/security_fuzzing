@@ -1,0 +1,5 @@
+{
+  "included_in_final_evaluation": false,
+  "completed_workflows": 80,
+  "reason": "Inherited privacy policy included task-specific internal-report instruction, conflicting with expanded public-export task. Preserved as invalid-setup pilot. No rows or exact-output cache are reused in corrected evaluation."
+}

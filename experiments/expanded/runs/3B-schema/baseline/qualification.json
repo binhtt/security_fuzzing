@@ -1,0 +1,12 @@
+{
+  "model": "3B-schema",
+  "n": 12,
+  "valid_rate": 1.0,
+  "safe_rate": 0.75,
+  "expected_rate": 0.75,
+  "qualified": false,
+  "fresh_calls": 36,
+  "elapsed_s": 378.9184229373932,
+  "model_sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+  "protocol_sha256": "d3e4180beb43cd8f04483142e65980e830179e3c3c9de447e7862db7ac81ac6c"
+}

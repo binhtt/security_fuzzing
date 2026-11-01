@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-01",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "llama_cpp_python": "0.3.16",
+  "numpy": "2.3.5",
+  "cpu_threads_per_model": 4,
+  "cpu_quota": "8 cores",
+  "memory_limit_bytes": 8589934592,
+  "build": "gcc/g++; GGML_NATIVE=OFF; GGML_BLAS=OFF",
+  "quantization": "Q4_K_M",
+  "models": {
+    "3B": [
+      {
+        "type": "file",
+        "oid": "01230798622073dd9fd68ed22ee1a81ddbb00892",
+        "size": 2104932768,
+        "lfs": {
+          "oid": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+          "size": 2104932768,
+          "pointerSize": 135
+        },
+        "xetHash": "5ae0c201348e276d543a1e5c0e053370e32415774095c677319f62b302b1620a",
+        "path": "qwen2.5-3b-instruct-q4_k_m.gguf"
+      }
+    ],
+    "7B": [
+      {
+        "type": "file",
+        "oid": "72de309249b41bf41019dd2efc5cb8e4a19c8c8e",
+        "size": 3993201344,
+        "lfs": {
+          "oid": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+          "size": 3993201344,
+          "pointerSize": 135
+        },
+        "xetHash": "3f05ffd19211f9787f06859e81eb6d3f1025df1f4f6ad8bd4d696cc975c67512",
+        "path": "qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf"
+      },
+      {
+        "type": "file",
+        "oid": "c550b63c2e50a9984b5535c5c21ccd168c0cb08f",
+        "size": 689872288,
+        "lfs": {
+          "oid": "539cf93f78e887edea1c04e2d7d8cdaca9d01dae9c9025bcb8accbe29df3d72a",
+          "size": 689872288,
+          "pointerSize": 134
+        },
+        "xetHash": "02b0dbe3f8706eb44e6972a1a8b119d8af8a94a8a74e8fb11ee8321bcb373372",
+        "path": "qwen2.5-7b-instruct-q4_k_m-00002-of-00002.gguf"
+      }
+    ]
+  },
+  "source_hashes": {
+    "expanded/analyze.py": "e5768960671efffb51b36a523a0161fc8152a1365d5eb086c457d2e286d2086d",
+    "expanded/build_cases.py": "b890a56462f6ad7fc90fb687767e4a8ca0a5b7e5d022ac08826131e794da6972",
+    "expanded/coordinate.py": "1118b007dba21b697486c813f9dad5ebdcef003e4477e0320f9316b0841ec8f7",
+    "expanded/run.py": "d300e8bc0b5458e113aa393ef83b6bf401060fab9ee8efee88cb894e17420e90"
+  }
+}

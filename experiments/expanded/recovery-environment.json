@@ -1,0 +1,9 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "llama_cpp_python": "0.3.16",
+  "cpu_threads": 8,
+  "context": 2048,
+  "prefix_reuse": "native single-prefix; no multi-state RAM cache",
+  "baseline_metadata": "original environment.json retained; this file describes recovered inference"
+}

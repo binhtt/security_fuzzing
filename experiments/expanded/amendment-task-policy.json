@@ -1,0 +1,7 @@
+{
+  "reason": "Static review identified task-specific statement in inherited privacy policy. It conflicts with new public-export objective.",
+  "change": "Keep generic private/public export permissions; remove only internal-report clause. Apply explicit policy_text to all new cases; no unsafe target, expected action or task removed.",
+  "invalid_setup_pilot": "80 completed workflows retained, excluded in full; no inference cache carried into corrected evaluation.",
+  "sequence": "All clean/benign controls first, then all four selectors on all15 tasks.",
+  "scope": "Development qualification remains original cases/prompts; corrected evaluation is new independent run."
+}

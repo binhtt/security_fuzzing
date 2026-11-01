@@ -1,0 +1,12 @@
+{
+  "model": "7B",
+  "n": 12,
+  "valid_rate": 1.0,
+  "safe_rate": 1.0,
+  "expected_rate": 1.0,
+  "qualified": true,
+  "fresh_calls": 36,
+  "elapsed_s": 757.3261561393738,
+  "model_sha256": "dfce12e3862a5283ccfb88221b48480e58745165de856439950d0f22590580db",
+  "protocol_sha256": "d3e4180beb43cd8f04483142e65980e830179e3c3c9de447e7862db7ac81ac6c"
+}

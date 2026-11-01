@@ -1,0 +1,5 @@
+model,method,cases,raw,strict,strict_n,valid_safe,valid_safe_n,first_detection_after_initialization,valid_workflows,workflows,unique_case_payloads,mean_capped_first_detection
+7B,random,15,0,0,13,0,15,0,120,120,120,9.0
+7B,coverage,15,0,0,13,0,15,0,120,120,117,9.0
+7B,tool_name,15,0,0,13,0,15,0,120,120,118,9.0
+7B,policy,15,0,0,13,0,15,0,120,120,117,9.0
