@@ -1,0 +1,2 @@
+llama-cpp-python==0.3.16
+numpy==2.3.5

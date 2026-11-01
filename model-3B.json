@@ -1,0 +1,14 @@
+[
+  {
+    "type": "file",
+    "oid": "01230798622073dd9fd68ed22ee1a81ddbb00892",
+    "size": 2104932768,
+    "lfs": {
+      "oid": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+      "size": 2104932768,
+      "pointerSize": 135
+    },
+    "xetHash": "5ae0c201348e276d543a1e5c0e053370e32415774095c677319f62b302b1620a",
+    "path": "qwen2.5-3b-instruct-q4_k_m.gguf"
+  }
+]

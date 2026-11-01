@@ -1,0 +1,2 @@
+-r requirements-inference.txt
+-r requirements-figures.txt
